@@ -1,0 +1,24 @@
+Thu, 08 Feb 2018 15:16:28 remote_connection.py[line:478]     DEBUG POST http://127.0.0.1:55014/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome"}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "chromeOptions": {"extensions": [], "args": []}}}
+Thu, 08 Feb 2018 15:16:29 remote_connection.py[line:565]     DEBUG Finished Request
+Thu, 08 Feb 2018 15:16:29 logPrint.py[line:43]     DEBUG goto Login Page http://weixin.feixuekj.cn/admin/login
+Thu, 08 Feb 2018 15:16:29 remote_connection.py[line:478]     DEBUG POST http://127.0.0.1:55014/session/cf4c7695a98ee94a9310a10322bc9da8/url {"url": "http://weixin.feixuekj.cn/admin/login", "sessionId": "cf4c7695a98ee94a9310a10322bc9da8"}
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:565]     DEBUG Finished Request
+Thu, 08 Feb 2018 15:16:31 logPrint.py[line:43]     DEBUG 输入username 
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:478]     DEBUG POST http://127.0.0.1:55014/session/cf4c7695a98ee94a9310a10322bc9da8/element {"using": "id", "value": "username", "sessionId": "cf4c7695a98ee94a9310a10322bc9da8"}
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:565]     DEBUG Finished Request
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:478]     DEBUG POST http://127.0.0.1:55014/session/cf4c7695a98ee94a9310a10322bc9da8/element/0.9447788608551395-1/value {"text": "\u98de\u5bd3", "value": ["\u98de", "\u5bd3"], "id": "0.9447788608551395-1", "sessionId": "cf4c7695a98ee94a9310a10322bc9da8"}
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:565]     DEBUG Finished Request
+Thu, 08 Feb 2018 15:16:31 logPrint.py[line:43]     DEBUG 输入password 
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:478]     DEBUG POST http://127.0.0.1:55014/session/cf4c7695a98ee94a9310a10322bc9da8/element {"using": "id", "value": "password", "sessionId": "cf4c7695a98ee94a9310a10322bc9da8"}
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:565]     DEBUG Finished Request
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:478]     DEBUG POST http://127.0.0.1:55014/session/cf4c7695a98ee94a9310a10322bc9da8/element/0.9447788608551395-2/value {"text": "qazwsx", "value": ["q", "a", "z", "w", "s", "x"], "id": "0.9447788608551395-2", "sessionId": "cf4c7695a98ee94a9310a10322bc9da8"}
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:565]     DEBUG Finished Request
+Thu, 08 Feb 2018 15:16:31 logPrint.py[line:43]     DEBUG 点击 login 按钮 
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:478]     DEBUG POST http://127.0.0.1:55014/session/cf4c7695a98ee94a9310a10322bc9da8/element {"using": "xpath", "value": "//div/button", "sessionId": "cf4c7695a98ee94a9310a10322bc9da8"}
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:565]     DEBUG Finished Request
+Thu, 08 Feb 2018 15:16:31 remote_connection.py[line:478]     DEBUG POST http://127.0.0.1:55014/session/cf4c7695a98ee94a9310a10322bc9da8/element/0.9447788608551395-3/click {"id": "0.9447788608551395-3", "sessionId": "cf4c7695a98ee94a9310a10322bc9da8"}
+Thu, 08 Feb 2018 15:16:33 remote_connection.py[line:565]     DEBUG Finished Request
+Thu, 08 Feb 2018 15:16:33 remote_connection.py[line:478]     DEBUG GET http://127.0.0.1:55014/session/cf4c7695a98ee94a9310a10322bc9da8/title {"sessionId": "cf4c7695a98ee94a9310a10322bc9da8"}
+Thu, 08 Feb 2018 15:16:33 remote_connection.py[line:565]     DEBUG Finished Request
+Thu, 08 Feb 2018 15:16:33 remote_connection.py[line:478]     DEBUG DELETE http://127.0.0.1:55014/session/cf4c7695a98ee94a9310a10322bc9da8 {"sessionId": "cf4c7695a98ee94a9310a10322bc9da8"}
+Thu, 08 Feb 2018 15:16:33 remote_connection.py[line:565]     DEBUG Finished Request

@@ -4,6 +4,7 @@ __author__ ='liqi'
 from selenium.webdriver.common.by import By
 from Pages.basePage import Page
 from logPrint.logPrint import feixueLogging
+import logging
 
 log=feixueLogging()
 
@@ -20,7 +21,7 @@ class LoginPage(Page):
 
     def gotoLoginPage(self):
         # print("goto Login Page %s" % self.base_url)
-        log.logPrint("goto Login Page %s"% self.base_url,logging.DEBUG)
+        log.logPrint("goto Login Page %s"% self.base_url, logging.DEBUG)
         self.driver.get(self.base_url)
 
     def input_username_text(self):

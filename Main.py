@@ -17,5 +17,6 @@ if __name__ == '__main__':
     HTML_PATH = "testReport.html"
     fp = open(HTML_PATH, "wb")
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u"飞雪智慧公寓平台测试", description=u"测试用例结果")
-    runner.run(HTML_PATH)
+    runner.run(TEST_UNIT)
+    # unittest.main()
     fp.close()
